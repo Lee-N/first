@@ -1,0 +1,32 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<title>Nice To Meet You！</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body onload="all()" >
+<script >write()</script>
+<script src="function.js"></script>
+<br /><br/><br>
+<div id="div1">from 2016.10.05</div>
+<div id="timeShow"  > </div>
+<img id="musicImg" src="Images/meigui.png" onClick="PlayPause()" alt="musicImg" />
+<audio id="music"src="music/遇见.mp3" autoplay="autoplay"  >
+</audio>
+<div id="div2" ></div>
+</body> 
+<script type="text/javascript" class="autoinsert" src="jquery-1.2.6.min.js"></script>
+<script src="snowfall.jquery.js"></script>
+<script>
+    $(document).snowfall('clear');
+    $(document).snowfall({
+        image: "images/hua.png",
+        flakeCount:10,
+        minSize:6,
+        maxSize: 12,
+    });
+</script>
+</html>

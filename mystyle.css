@@ -1,0 +1,19 @@
+body{
+    background: no-repeat;
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+    font-size: 1rem;
+}
+#musicImg{
+    height: 4rem;
+    width: 4rem;
+}
+div{
+    font-family:"微软雅黑 Light";
+    color:#FFF;
+}
+#div2{
+    position: fixed;
+    left:140px;
+    font-size:1.10rem;
+}
